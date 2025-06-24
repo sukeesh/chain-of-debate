@@ -30,7 +30,7 @@ def gpt_propose(question, context=None, round_num=1, max_rounds=6):
         resp = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=messages,
-            temperature=0.7
+            temperature=0
         )
         return resp.choices[0].message.content.strip()
     except Exception as e:
@@ -58,7 +58,7 @@ def claude_propose(question, context=None, round_num=1, max_rounds=6):
         resp = claude.messages.create(
             model="claude-3-haiku-20240307",
             max_tokens=600,
-            temperature=0.7,
+            temperature=0,
             system=system_prompt,
             messages=messages
         )
