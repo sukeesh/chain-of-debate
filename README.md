@@ -2,6 +2,9 @@
 
 An intelligent multi-AI discussion system that facilitates thoughtful exchanges between GPT-4o-mini and Claude 3 Haiku to arrive at more reliable answers through collaborative reasoning.
 
+<img width="672" alt="Screenshot 2025-06-24 at 16 53 26" src="https://github.com/user-attachments/assets/639fc186-a38e-4fa8-9685-f2a5f56e1832" />
+
+
 ## Key Features
 
 - **🔄 Multi-Round Discussions**: Extended 6-round format with dynamic phase transitions
